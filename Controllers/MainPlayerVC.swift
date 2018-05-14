@@ -103,7 +103,7 @@ let commandCenter = MPRemoteCommandCenter.shared()
 // VK take hash for get music link
     public func GetMusicTrack() {
         self.playList.removeAll()
-        let md5Data = MD5(string:"/method/audio.get?v=5.68&device_id=f8f11195ae1c5a17&uid=\(vkID)&access_token=71d8be6a5051f738e824b9a67fe4ac901253d7a8c75b9d2559114350047f8fadf199e8066c35f83182ee40be6228fc130f0ef2e")
+        let md5Data = MD5(string:"/method/audio.get?v=5.68&device_id=f8f11195ae1c5a17&uid=\(vkID)&access_token=TOKEN_HERE")
         let md5Hex =  md5Data.map { String(format: "%02hhx", $0) }.joined()
         
         
