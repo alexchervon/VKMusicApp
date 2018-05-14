@@ -14,7 +14,7 @@ class ViewController: UITableViewController {
     @IBOutlet var MyTable: UITableView!
 
 
-    let token = "ce1ef44762051787674fa133ec9b2144b47281a7deddaa487f7a39123136593706d6522d976d6844fd3cd"
+    let token = "PASTE_HERE"
     var avPlayer:AVPlayer?
     var avPlayerItem:AVPlayerItem?
     
